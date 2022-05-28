@@ -1,9 +1,9 @@
 const contractAddress = "0x67ADFAb7B054af9aA58826F5F5Af49d1f48B7029"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_h1 = "You are here at the Tully'z Tokens  NFT Project!!";
+const welcome_h2 = "You need to connect your wallet to Get Started";
+const welcome_p = 'Tullyz Tokens are 5982 unique tokens created under the ERC 721 contract for friends and fans of Tully. These tokens will make it possible for collectors to gain access to product discounts, Tullyz virtual/physical events, limited edition products, and/or other exclusive accesses. The utilities for these tokens are high and are very rewarding. Collectors who have rare tokens will have the privilege to get physical token cards from Tully. However, the continuity of this project is largely dependent on the success of our current NFT Project, Tullyz Tokens. Make sure you join our discord server by clicking on the icon at the top for more utilities and for important activities, engagements and information.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
