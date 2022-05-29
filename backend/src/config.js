@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Tully'z Tokens";
-const description = "Tully'z Tokens are 5982 unique tokens created under the ERC 721 contract for friends and fans of Tully. These tokens will make it possible for collectors to gain access to product discounts, Tully'z virtual/physical events, limited edition products, and/or other exclusive accesses. The utilities for these tokens are high and are very rewarding. Collectors who have rare tokens will have the privilege to get physical token cards from Tully.";
+const description = "Tullyz Tokens are 5982 unique tokens created under the ERC 721 contract for friends and fans of Tully. These tokens will make it possible for collectors to gain access to product discounts, Tullyz virtual/physical events, limited edition products, and/or other exclusive accesses. The utilities for these tokens are high and are very rewarding. Collectors who have rare tokens will have the privilege to get physical token cards from Tully. However, the continuity of this project is largely dependent on the success of our current NFT Project, Tullyz Tokens.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -59,7 +59,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Tullyz Tokens';
@@ -68,7 +68,7 @@ const METADATA_UPDATABLE = false; // set to false if you don't want to allow met
 const OWNER_ADDRESS = '0x1E8aA90F90077366afB8f76Cf71cB0e9515e64bc';
 const TREASURY_ADDRESS = '0x1E8aA90F90077366afB8f76Cf71cB0e9515e64bc';
 const MAX_SUPPLY = 5982; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 103; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.

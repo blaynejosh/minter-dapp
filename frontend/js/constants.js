@@ -1,5 +1,5 @@
-const contractAddress = "0x67ADFAb7B054af9aA58826F5F5Af49d1f48B7029"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x5d5623721c08ffa48af21aa6Aa1837b57506FD47"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "You are here at the Tully'z Tokens  NFT Project!!";
 const welcome_h2 = "You need to connect your wallet to Get Started";
