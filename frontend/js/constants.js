@@ -1,9 +1,9 @@
-const contractAddress = "YOUR CONTRACT ADDRESS"; //Replace with your own contract address
+const contractAddress = "0xc9a0fDb7B92811a3AEF1B760960715E028f08270"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_h1 = "You've arrived at our Watch Face Backgrounds NFT Project!!";
+const welcome_h2 = "Connect to MetaMask and Get Started";
+const welcome_p = 'AK & DOKS is a watch brand and the proprietor of the AK & DOKS NFTs which were inspired by the dial of the AK & DOKS N.A.T. 1 collection. The premier design was created in collaboration with a local Nigerian artist and gives a unique identity to our art inspired brand. 5000 of these unique watch dial NFTs were designed, developed and placed on the Blockchain with the ERC 721 contract in collaboration with a local NFT creator. AK&DOKS then challenged five creative arts students from the University of Lagos, Nigeria to use local fabrics (Ankara) on a canvas with the original dial design framework and to use their creativity to express what New African Time (N.A.T) means to them. This excersise generated a total of 100 unique NFTs based on the original physical works created by the students and were then also placed on the Blockchain with the ERC 721 contract.The NFTs were created to be used as unique watch dial backgrounds for both android and iOS smart watches. Collecting one or more of these NFTs will qualify you for a digital clock that will be launched soon by AK & DOKS. We have great plans to add higher utilities to this NFT Project in the future based on the success of this current project.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
