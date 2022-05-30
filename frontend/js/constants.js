@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 const contractAddress = "0xc9a0fDb7B92811a3AEF1B760960715E028f08270"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "You've arrived at our Watch Face Backgrounds NFT Project!!";
 const welcome_h2 = "Connect to MetaMask and Get Started";
 const welcome_p = 'AK & DOKS is a watch brand and the proprietor of the AK & DOKS NFTs which were inspired by the dial of the AK & DOKS N.A.T. 1 collection. The premier design was created in collaboration with a local Nigerian artist and gives a unique identity to our art inspired brand. 5000 of these unique watch dial NFTs were designed, developed and placed on the Blockchain with the ERC 721 contract in collaboration with a local NFT creator. AK&DOKS then challenged five creative arts students from the University of Lagos, Nigeria to use local fabrics (Ankara) on a canvas with the original dial design framework and to use their creativity to express what New African Time (N.A.T) means to them. This excersise generated a total of 100 unique NFTs based on the original physical works created by the students and were then also placed on the Blockchain with the ERC 721 contract.The NFTs were created to be used as unique watch dial backgrounds for both android and iOS smart watches. Collecting one or more of these NFTs will qualify you for a digital clock that will be launched soon by AK & DOKS. We have great plans to add higher utilities to this NFT Project in the future based on the success of this current project.';
+=======
+const contractAddress = "0x5d5623721c08ffa48af21aa6Aa1837b57506FD47"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
+
+const welcome_h1 = "You are here at the Tully'z Tokens  NFT Project!!";
+const welcome_h2 = "You need to connect your wallet to Get Started";
+const welcome_p = 'Tullyz Tokens are 5982 unique tokens created under the ERC 721 contract for friends and fans of Tully. These tokens will make it possible for collectors to gain access to product discounts, Tullyz virtual/physical events, limited edition products, and/or other exclusive accesses. The utilities for these tokens are high and are very rewarding. Collectors who have rare tokens will have the privilege to get physical token cards from Tully. However, the continuity of this project is largely dependent on the success of our current NFT Project, Tullyz Tokens. Make sure you join our discord server by clicking on the icon at the top for more utilities and for important activities, engagements and information.';
+>>>>>>> eae0af3e0041be2a8d5be63e5e43d2b08e9eb32d
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

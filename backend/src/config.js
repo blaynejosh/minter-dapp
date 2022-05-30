@@ -24,6 +24,7 @@ const layerConfigurations = [
       { name: "Abstract One Purple Cells" },
       { name: "Abstract One Red Cells" },
       { name: "Abstract One Violet Cells" },
+
     ],
   },
   {
@@ -359,7 +360,9 @@ const format = {
 };
 
 const extraMetadata = {
+
   external_url: "https://ak_&_doks_watch_faces.xyz", // Replace with your website or remove this line if you do not have one.
+
 };
 
 // NFTPort Info
@@ -367,9 +370,9 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
-// REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
+// REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER
 const CONTRACT_NAME = 'AK&DOKS Watch Faces';
 const CONTRACT_SYMBOL = 'ADWF';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
@@ -386,12 +389,14 @@ const PUBLIC_MINT_START_DATE = "2022-07-14T00:00:00+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = "2022-07-01T00:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x5ebE876152df8b7EE91A1aD62BBe14cB19483384"; // Address that will receive the royalty
+
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = false; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xe39aeA5E81c7A01195162542508be565f5D6e758"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0xc9a0fDb7B92811a3AEF1B760960715E028f08270"; // If you want to manually include it
+
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
