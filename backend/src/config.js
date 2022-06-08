@@ -361,7 +361,7 @@ const format = {
 
 const extraMetadata = {
 
-  external_url: "https://ak_&_doks_watch_faces.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://akanddoksnfts.xyz", // Replace with your website or remove this line if you do not have one.
 
 };
 
